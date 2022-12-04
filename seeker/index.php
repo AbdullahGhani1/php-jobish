@@ -1,6 +1,7 @@
 <?php
 include_once './template/header.php';
-if(empty($_SESSION['name']) && empty($_SESSION['status'])&& $_SESSION['status'] != 1){
+if(empty($_SESSION['name']) && empty($_SESSION['status'])&& $_SESSION['status'] != 1)
+{
     header('location:../login.php');
 }
 ?>

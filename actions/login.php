@@ -11,11 +11,11 @@ if($row >= 1){
     // fetch the data from database
     $data  = mysqli_fetch_array($result);
     $status= $data['status'];
-    session_start();
+    session_start(); // starting the session ..
     $_SESSION['name'] = $data['name'];
-    $_SESSION['email'] = $$data['email'];
-    $_SESSION['id'] = $data['id'];
     $_SESSION['status'] = $data['status'];
+    $_SESSION['email'] = $data['email'];
+    $_SESSION['id'] = $data['id'];
     // checking if statu sis job seeker or provider ..
     if($status == 1)
     {

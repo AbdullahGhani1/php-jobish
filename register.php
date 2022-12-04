@@ -40,7 +40,7 @@
 									Provider <input type="radio" name="status" value="2" />
 							</div>
 							<div class="form-group">
-								<button class="btn btn-warning"> <i class="fa fa-arrow-right"></i> Login</button>
+								<button class="btn btn-warning"> <i class="fa fa-arrow-right"></i> Sign Up</button>
 							</div>
 						</form>
 					</div>
